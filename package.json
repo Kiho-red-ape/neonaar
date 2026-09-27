@@ -1,0 +1,7 @@
+{
+  "name": "neonaar",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs", "start": "node scripts/serve.mjs" }
+}

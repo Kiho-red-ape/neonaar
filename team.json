@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Kishore Kumar",
+    "position": "CEO, Co-founder",
+    "photo": "/assets/kishore-kumar.png",
+    "linkedin": "https://www.linkedin.com/in/kishorecurious/"
+  },
+  {
+    "name": "Gayathri Menon",
+    "position": "CTO, Co-founder",
+    "photo": "/assets/gayathri-menon.png",
+    "linkedin": "https://www.linkedin.com/in/gayathri-menon-a4a07740b/"
+  }
+]
