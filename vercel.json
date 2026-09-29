@@ -3,5 +3,12 @@
   "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/products/neocell/pure/:path*",
+      "destination": "/products/neocell-pure/:path*",
+      "permanent": true
+    }
+  ]
 }

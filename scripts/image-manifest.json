@@ -1,0 +1,104 @@
+{
+  "/assets/car-spray-painting-booth.jpg": {
+    "src": "/assets/car-spray-painting-booth-1200.webp",
+    "srcset": "/assets/car-spray-painting-booth-480.webp 480w, /assets/car-spray-painting-booth-1200.webp 1200w",
+    "width": 1200,
+    "height": 1800
+  },
+  "/assets/haircare-shampoo-bottle.jpg": {
+    "src": "/assets/haircare-shampoo-bottle-1200.webp",
+    "srcset": "/assets/haircare-shampoo-bottle-480.webp 480w, /assets/haircare-shampoo-bottle-1200.webp 1200w",
+    "width": 1200,
+    "height": 1800
+  },
+  "/assets/industrial-factory-smoke.jpg": {
+    "src": "/assets/industrial-factory-smoke-1200.webp",
+    "srcset": "/assets/industrial-factory-smoke-480.webp 480w, /assets/industrial-factory-smoke-1200.webp 1200w",
+    "width": 1200,
+    "height": 744
+  },
+  "/assets/industry-poster.jpg": {
+    "src": "/assets/industry-poster-1200.webp",
+    "srcset": "/assets/industry-poster-480.webp 480w, /assets/industry-poster-1200.webp 1200w",
+    "width": 1280,
+    "height": 720
+  },
+  "/assets/kerala-palakkad-paddy-28901908.jpg": {
+    "src": "/assets/kerala-palakkad-paddy-28901908-1200.webp",
+    "srcset": "/assets/kerala-palakkad-paddy-28901908-480.webp 480w, /assets/kerala-palakkad-paddy-28901908-1200.webp 1200w",
+    "width": 2000,
+    "height": 1333
+  },
+  "/assets/kerala-palakkad-paddy-30769819.jpg": {
+    "src": "/assets/kerala-palakkad-paddy-30769819-1200.webp",
+    "srcset": "/assets/kerala-palakkad-paddy-30769819-480.webp 480w, /assets/kerala-palakkad-paddy-30769819-1200.webp 1200w",
+    "width": 2000,
+    "height": 1333
+  },
+  "/assets/neocell-grow.png": {
+    "src": "/assets/neocell-grow-1200.webp",
+    "srcset": "/assets/neocell-grow-480.webp 480w, /assets/neocell-grow-1200.webp 1200w",
+    "width": 1254,
+    "height": 1254
+  },
+  "/assets/neocell-pure.png": {
+    "src": "/assets/neocell-pure-1200.webp",
+    "srcset": "/assets/neocell-pure-480.webp 480w, /assets/neocell-pure-1200.webp 1200w",
+    "width": 1254,
+    "height": 1254
+  },
+  "/assets/neonaar-team-lab.png": {
+    "src": "/assets/neonaar-team-lab-1200.webp",
+    "srcset": "/assets/neonaar-team-lab-480.webp 480w, /assets/neonaar-team-lab-1200.webp 1200w",
+    "width": 1374,
+    "height": 1145
+  },
+  "/assets/neonilam-balance.jpg": {
+    "src": "/assets/neonilam-balance-753.webp",
+    "srcset": "/assets/neonilam-balance-480.webp 480w, /assets/neonilam-balance-753.webp 753w",
+    "width": 753,
+    "height": 1015
+  },
+  "/assets/neonilam-base.jpg": {
+    "src": "/assets/neonilam-base-758.webp",
+    "srcset": "/assets/neonilam-base-480.webp 480w, /assets/neonilam-base-758.webp 758w",
+    "width": 758,
+    "height": 1024
+  },
+  "/assets/personal-care.jpg": {
+    "src": "/assets/personal-care-1000.webp",
+    "srcset": "/assets/personal-care-480.webp 480w, /assets/personal-care-1000.webp 1000w",
+    "width": 1000,
+    "height": 1000
+  },
+  "/assets/sunscreen-product-sand.jpg": {
+    "src": "/assets/sunscreen-product-sand-1200.webp",
+    "srcset": "/assets/sunscreen-product-sand-480.webp 480w, /assets/sunscreen-product-sand-1200.webp 1200w",
+    "width": 1200,
+    "height": 1800
+  },
+  "/assets/sustainable-cardboard-packaging.jpg": {
+    "src": "/assets/sustainable-cardboard-packaging-1200.webp",
+    "srcset": "/assets/sustainable-cardboard-packaging-480.webp 480w, /assets/sustainable-cardboard-packaging-1200.webp 1200w",
+    "width": 1200,
+    "height": 1800
+  },
+  "/assets/tamil-nadu-fields.jpg": {
+    "src": "/assets/tamil-nadu-fields-1200.webp",
+    "srcset": "/assets/tamil-nadu-fields-480.webp 480w, /assets/tamil-nadu-fields-1200.webp 1200w",
+    "width": 1600,
+    "height": 900
+  },
+  "/assets/neonilam-soil.svg": {
+    "src": "/assets/neonilam-soil-1200.webp",
+    "srcset": "/assets/neonilam-soil-480.webp 480w, /assets/neonilam-soil-1200.webp 1200w",
+    "width": 5055,
+    "height": 3370
+  },
+  "/assets/mfc-microscopy.svg": {
+    "src": "/assets/mfc-microscopy-1024.webp",
+    "srcset": "/assets/mfc-microscopy-480.webp 480w, /assets/mfc-microscopy-1024.webp 1024w",
+    "width": 1024,
+    "height": 572
+  }
+}
