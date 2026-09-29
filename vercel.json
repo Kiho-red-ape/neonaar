@@ -6,6 +6,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/products/neocell/pure/",
+      "destination": "/products/neocell-pure/",
+      "permanent": true
+    },
+    {
       "source": "/products/neocell/pure/:path*",
       "destination": "/products/neocell-pure/:path*",
       "permanent": true
