@@ -3,17 +3,353 @@
   "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "trailingSlash": true,
   "redirects": [
     {
-      "source": "/products/neocell/pure/",
-      "destination": "/products/neocell-pure/",
-      "permanent": true
+      "source": "/products/neocell/pure",
+      "destination": "https://neonaar.com/products/neocell-pure/",
+      "statusCode": 301
     },
     {
-      "source": "/products/neocell/pure/:path*",
-      "destination": "/products/neocell-pure/:path*",
-      "permanent": true
+      "source": "/products/neocell/pure/",
+      "destination": "https://neonaar.com/products/neocell-pure/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neocell/pure/index.html",
+      "destination": "https://neonaar.com/products/neocell-pure/",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.html",
+      "destination": "https://neonaar.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/about/index.html",
+      "destination": "https://neonaar.com/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/about",
+      "destination": "https://neonaar.com/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/index.html",
+      "destination": "https://neonaar.com/products/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products",
+      "destination": "https://neonaar.com/products/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neocell/index.html",
+      "destination": "https://neonaar.com/products/neocell/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neocell",
+      "destination": "https://neonaar.com/products/neocell/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neonilam/index.html",
+      "destination": "https://neonaar.com/products/neonilam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neonilam",
+      "destination": "https://neonaar.com/products/neonilam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neocell-pure/index.html",
+      "destination": "https://neonaar.com/products/neocell-pure/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neocell-pure",
+      "destination": "https://neonaar.com/products/neocell-pure/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neocell/grow/index.html",
+      "destination": "https://neonaar.com/products/neocell/grow/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neocell/grow",
+      "destination": "https://neonaar.com/products/neocell/grow/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neonilam/base/index.html",
+      "destination": "https://neonaar.com/products/neonilam/base/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neonilam/base",
+      "destination": "https://neonaar.com/products/neonilam/base/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neonilam/balance/index.html",
+      "destination": "https://neonaar.com/products/neonilam/balance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neonilam/balance",
+      "destination": "https://neonaar.com/products/neonilam/balance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/microfibrillated-cellulose/index.html",
+      "destination": "https://neonaar.com/microfibrillated-cellulose/",
+      "statusCode": 301
+    },
+    {
+      "source": "/microfibrillated-cellulose",
+      "destination": "https://neonaar.com/microfibrillated-cellulose/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/personal-care/index.html",
+      "destination": "https://neonaar.com/applications/personal-care/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/personal-care",
+      "destination": "https://neonaar.com/applications/personal-care/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/coatings/index.html",
+      "destination": "https://neonaar.com/applications/coatings/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/coatings",
+      "destination": "https://neonaar.com/applications/coatings/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/packaging/index.html",
+      "destination": "https://neonaar.com/applications/packaging/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/packaging",
+      "destination": "https://neonaar.com/applications/packaging/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/index.html",
+      "destination": "https://neonaar.com/applications/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications",
+      "destination": "https://neonaar.com/applications/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact/index.html",
+      "destination": "https://neonaar.com/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact",
+      "destination": "https://neonaar.com/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/about/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/products/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neocell/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/products/neocell/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neonilam/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/products/neonilam/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neocell-pure/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/products/neocell-pure/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neocell/grow/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/products/neocell/grow/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neonilam/base/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/products/neonilam/base/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neonilam/balance/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/products/neonilam/balance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/microfibrillated-cellulose/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/microfibrillated-cellulose/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/personal-care/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/applications/personal-care/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/coatings/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/applications/coatings/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/packaging/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/applications/packaging/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/applications/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/credits.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/credits.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.neonaar.com"
+        }
+      ],
+      "destination": "https://neonaar.com/:path*",
+      "statusCode": 301
     }
   ]
 }
