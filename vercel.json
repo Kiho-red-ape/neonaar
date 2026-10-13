@@ -5,6 +5,56 @@
   "outputDirectory": "dist",
   "redirects": [
     {
+      "source": "/collaboration",
+      "destination": "https://neonaar.com/collaboration/",
+      "statusCode": 301
+    },
+    {
+      "source": "/collaboration/index.html",
+      "destination": "https://neonaar.com/collaboration/",
+      "statusCode": 301
+    },
+    {
+      "source": "/platform",
+      "destination": "https://neonaar.com/platform/",
+      "statusCode": 301
+    },
+    {
+      "source": "/platform/index.html",
+      "destination": "https://neonaar.com/platform/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/seed-coating",
+      "destination": "https://neonaar.com/applications/seed-coating/",
+      "statusCode": 301
+    },
+    {
+      "source": "/applications/seed-coating/index.html",
+      "destination": "https://neonaar.com/applications/seed-coating/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neogas",
+      "destination": "https://neonaar.com/products/neogas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neogas/index.html",
+      "destination": "https://neonaar.com/products/neogas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neopack",
+      "destination": "https://neonaar.com/products/neopack/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/neopack/index.html",
+      "destination": "https://neonaar.com/products/neopack/",
+      "statusCode": 301
+    },
+    {
       "source": "/products/neocell/pure",
       "destination": "https://neonaar.com/products/neocell-pure/",
       "statusCode": 301
